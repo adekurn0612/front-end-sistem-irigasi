@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:7300',
+  baseURL: 'api-sistem-irigasi.vercel.app',
 });
